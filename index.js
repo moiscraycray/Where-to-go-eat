@@ -1,6 +1,6 @@
 // app to decide what to eat for us
 
-var places = ['McDonalds', 'KFC', 'Hungry Jacks', 'Cabramatta'];
+var places = ['McDonalds', 'KFC', 'Hungry Jacks', 'Cabramatta', 'Sushi'];
 
 function randomiser() {
   var decider = Math.floor(Math.random() * places.length);
