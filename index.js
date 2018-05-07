@@ -5,13 +5,13 @@ var places = ['McDonalds', 'KFC', 'Hungry Jacks', 'Vietnamese', 'Sushi', 'Italia
 var firstRun = false;
 
 function randomiser() {
-  var number = Math.floor(Math.random() * places.length);
+  let number = Math.floor(Math.random() * places.length);
   console.log(number);
   return number;
 };
 
 function unique(method) {
-  var number = method();
+  let number = method();
   if (firstRun === true) {
     while (number === prevNum) {
       number = method();
@@ -23,7 +23,7 @@ function unique(method) {
 };
 
 document.querySelector('.btn').addEventListener('click', () => {
-  var number = unique(randomiser);
+  let number = unique(randomiser);
   document.querySelector('.go-here').innerHTML = places[number];
   firstRun = true;
 });
