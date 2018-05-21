@@ -2,14 +2,11 @@
   text-align: center;
 }
 
-.title {
-  margin-top: 20%;
+.go-here {
+  margin-top: 50%;
+  font-size: 3em;
 }
 
 .btn {
-  margin: 30px;
-}
-
-.go-here {
-  font-size: 2em;
+  margin: 50px;
 }
