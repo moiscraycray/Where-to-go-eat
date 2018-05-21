@@ -1,6 +1,6 @@
 // app to decide what to eat for us
 
-var places = ['McDonalds', 'KFC', 'Hungry Jacks', 'Vietnamese', 'Sushi', 'Italian', 'Mexican', 'Turkish', 'Malaysian', 'Thai', 'Ramen', 'Burgers', 'Steak'];
+var places = ['McDonalds', 'KFC', 'Hungry Jacks', 'Vietnamese', 'Sushi', 'Italian', 'Mexican', 'Turkish', 'Malaysian', 'Thai', 'Ramen', 'Burgers', 'Steak', 'Yum Cha'];
 
 var firstRun = false;
 
