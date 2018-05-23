@@ -2,9 +2,24 @@
   text-align: center;
 }
 
+.counter {
+  font-size: 2em;
+}
+
 .go-here {
-  margin-top: 50%;
   font-size: 3em;
+}
+
+@media only screen and (min-width: 320px) {
+  .counter {
+    margin-top: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .counter {
+    margin-top: 25%;
+  }
 }
 
 .btn {
